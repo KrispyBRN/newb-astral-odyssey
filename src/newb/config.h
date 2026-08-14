@@ -170,7 +170,7 @@
 #define NL_AURORA_COL2 vec3(0.1,0.0,1.0)
 
 #define NL_AURORA_3D // [toggle] volumetric noise-based aurora rendered in the sky itself
-#define NL_AURORA_3D_SCALE 0.02 // 0.0007 huge single band ~ 0.7 many tiny wisps - tune to taste
+#define NL_AURORA_3D_SCALE 0.007 // 0.0007 huge single band ~ 0.7 many tiny wisps - tune to taste
 #define NL_AURORA_3D_COL_FAR vec3(0.65, 0.48, 1.05)  // color of the back/far layers
 #define NL_AURORA_3D_COL_NEAR vec3(0.0, 7.0, 4.5)    // color of the front/near layers - raised from 4.5,3.0 so it doesn't get lost
 
