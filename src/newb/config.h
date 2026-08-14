@@ -141,7 +141,7 @@
 #define NL_CLOUD2_THICKNESS 4.0            // 0.5 slim ~ 5.0 fat
 #define NL_CLOUD2_RAIN_THICKNESS 5.0       // 0.5 slim ~ 5.0 fat
 #define NL_CLOUD2_STEPS 10                 // 3 low quality ~ 16 high quality
-#define NL_CLOUD2_SCALE vec2(0.005, 0.005) // 0.003 large ~ 0.3 tiny
+#define NL_CLOUD2_SCALE vec2(0.05, 0.05) // 0.003 large ~ 0.3 tiny
 #define NL_CLOUD2_SHAPE vec2(0.5, 0.4)     // 0.0 round ~ 1.0 box vec2(horizontal shape, vertical shape)
 #define NL_CLOUD2_DENSITY 25.0             // 1.0 blurry ~ 100.0 sharp
 #define NL_CLOUD2_VELOCITY 0.8             // 0.0 static ~ 4.0 very fast
