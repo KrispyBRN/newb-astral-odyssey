@@ -192,19 +192,19 @@
 
 /* Sun/Moon */
 #define NL_SUN_SIZE  1.0           // 0.3 tiny ~ 4.0 massive
-#define NL_SUN_SIZE_DAWN 1.0       // 0.3 tiny ~ 4.0 massive
-#define NL_SUN_SIZE_DUSK 1.0       // 0.3 tiny ~ 4.0 massive
+#define NL_SUN_SIZE_DAWN 3.0       // 0.3 tiny ~ 4.0 massive
+#define NL_SUN_SIZE_DUSK 3.0       // 0.3 tiny ~ 4.0 massive
 #define NL_MOON_SIZE 1.0           // 0.3 tiny ~ 4.0 massive
 #define NL_SUN_PATH_YAW    15.0 //
 #define NL_MOON_PATH_YAW   17.0 //
 #define NL_SUN_PATH_TILT   31.0 //
 #define NL_MOON_PATH_TILT -28.0 //
-#define NL_SUN_TILT        45.0 // 0.0 no tilt ~ 90.0 tilt of 90 degrees
+#define NL_SUN_TILT        0.0 // 0.0 no tilt ~ 90.0 tilt of 90 degrees
 #define NL_SUN_TILT_DAWN   45.0 // 0.0 no tilt ~ 90.0 tilt of 90 degrees
 #define NL_SUN_TILT_DUSK   45.0 // 0.0 no tilt ~ 90.0 tilt of 90 degrees
 #define NL_SUN_DAWN_DUSK_RANGE 0.08 // 0.02 narrow ~ 0.2 wide transition window
-#define NL_SUN_GLOW_INTENSITY 15.0   // 0.0 no glow ~ 30.0 very bright glow
-#define NL_SUN_GLOW_THRESHOLD 0.22   // 0.05 large glow ~ 0.9 tiny/no glow
+#define NL_SUN_GLOW_INTENSITY 0.0   // 0.0 no glow ~ 30.0 very bright glow
+#define NL_SUN_GLOW_THRESHOLD 0.9   // 0.05 large glow ~ 0.9 tiny/no glow
 #define NL_ENDSKY_GLOW_INTENSITY 1.5 // 0.0 no glow ~ 4.0 very bright glow
 #define NL_MOON_TILT       45.0 // 0.0 no tilt ~ 90.0 tilt of 90 degrees
 
@@ -226,8 +226,8 @@
 #define NL_WEATHER_PARTICLE_SIZE 1.0 // 0.5 tiny ~ 4.0 large
 
 /* Lava effects */
-#define NL_LAVA_NOISE            // [toggle] darken lava in certain regions
-//#define NL_LAVA_NOISE_BUMP 0.2 // [toggle] 0.1 subtle ~ 0.8 massive waves
+//#define NL_LAVA_NOISE            // [toggle] darken lava in certain regions
+#define NL_LAVA_NOISE_BUMP 0.2 // [toggle] 0.1 subtle ~ 0.8 massive waves
 #define NL_LAVA_NOISE_SPEED 0.2  // 0.0 still ~ 0.8 fast
 
 /*
