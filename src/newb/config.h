@@ -89,8 +89,8 @@
 
 /* Rainbow */
 #define NL_RAINBOW           // [toggle] enable rainbow in sky
-#define NL_RAINBOW_CLEAR 1.0 // 0.3 subtle ~ 1.0 bright during clear weather
-#define NL_RAINBOW_RAIN  0.4 // 0.3 subtle ~ 1.0 bright during rain weather
+#define NL_RAINBOW_CLEAR 0.3 // 0.3 subtle ~ 1.0 bright during clear weather
+#define NL_RAINBOW_RAIN  0.6 // 0.3 subtle ~ 1.0 bright during rain weather
 
 /* Ore glow intensity */
 #define NL_GLOW_TEX 2.3           // 0.4 weak ~ 8.0 bright
@@ -122,7 +122,7 @@
 #define NL_UNDERWATER_TINT vec3(0.9,1.0,0.9) // fog tint color when underwater
 
 /* Cloud type */
-#define NL_CLOUD_TYPE 0 // 0:vanilla, 1:soft, 2:rounded, 3:realistic
+#define NL_CLOUD_TYPE 2 // 0:vanilla, 1:soft, 2:rounded, 3:realistic
 
 /* Vanilla cloud settings - make sure to remove clouds.png when using this */
 #define NL_CLOUD0_THICKNESS 2.1      // 0.5 slim ~ 8.0 fat
@@ -181,7 +181,7 @@
 /* Shooting star */
 #define NL_SHOOTING_STAR 1.0        // [toggle] 0.2 dim ~ 1.0 bright
 #define NL_SHOOTING_STAR_PERIOD 6.0 // 0.4 fast ~ 12.0 slow (12 secs)
-#define NL_SHOOTING_STAR_DELAY 64.0 // 0.0 no delay ~ 100.0 long time (100 secs)
+#define NL_SHOOTING_STAR_DELAY 12.0 // 0.0 no delay ~ 100.0 long time (100 secs)
 
 /* Galaxy */
 //#define NL_GALAXY_STARS 2.0           // [toggle] 0.1 dim - 4.0 bright
@@ -211,7 +211,7 @@
 #define NL_MOON_TILT       45.0 // 0.0 no tilt ~ 90.0 tilt of 90 degrees
 
 /* Fake godrays during sunrise/sunset */
-//#define NL_GODRAY 0.3 // [toggle] 0.1 subtle ~ 0.8 strong
+#define NL_GODRAY 0.3 // [toggle] 0.1 subtle ~ 0.8 strong
 
 /* Fake godrays at night during a full moon */
 #define NL_GODRAY_FULLMOON 0.3 // [toggle] 0.1 subtle ~ 0.8 strong
